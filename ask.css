@@ -1,0 +1,90 @@
+body{
+	background-image: url(gh4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+form{
+	background-color: ghostwhite;
+	width: 35%;
+	margin-left: 485px;
+	height: 71%;
+	border-radius: 15px;
+	margin-top: 180px;
+	box-sizing: border-box;
+	box-shadow: 2px -2px 10px grey;
+}
+form h2{
+	text-align: center;
+	font-family: monserrat,sans-serif;
+	font-weight: lighter;
+	color: #111111;
+	padding-top: 20px;
+}
+label{
+	margin-left: 20px;
+	font-family: opensans,sans-serif;
+}
+.inp{
+	margin-left: 20px;
+	width: 92%;
+	margin-top: 5px;
+	height: 45px;
+	border-radius: 5px;
+	border: none;
+	background-color: #e5e5e5;
+	padding-left: 10px;
+	font-family: monserrat,sans-serif;
+	font-size: 15px;
+}
+textarea{
+	margin-left: 20px;
+	width: 92%;
+	height: 100px;
+	margin-top: 5px;
+	border-radius: 5px;
+	border: none;
+	background-color: #e5e5e5;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-family: monserrat,sans-serif;
+	font-size: 15px;
+}
+input{
+	margin-left: 20px;
+}
+.accept{
+	margin-left: 0px;
+}
+button{
+	margin-left: 20px;
+	width: 92%;
+	height: 55px;
+	border-radius: 5px;
+	border: none;
+	background-color:#652c87;
+	color: white;
+	font-size: 20px;
+}
+button:hover{
+	background-color: darkorange;
+}
+a{
+	text-decoration: none;
+	font-family: opensans,sans-serif;
+}
+
+/*for mobile phones*/
+@media screen and (max-width: 505px){
+	body{
+		background-position: center;
+	}
+	form{
+		margin-left: 75px;
+		width: 70%;
+		height: 86%;
+		margin-top: 50px;
+	}
+	.inp,textarea,button{
+		width: 87%;
+	}
+}
