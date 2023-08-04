@@ -71,20 +71,4 @@ button:hover{
 a{
 	text-decoration: none;
 	font-family: opensans,sans-serif;
-}
-
-/*for mobile phones*/
-@media screen and (max-width: 505px){
-	body{
-		background-position: center;
-	}
-	form{
-		margin-left: 75px;
-		width: 70%;
-		height: 86%;
-		margin-top: 50px;
-	}
-	.inp,textarea,button{
-		width: 87%;
-	}
-}
+}
